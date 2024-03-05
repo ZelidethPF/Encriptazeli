@@ -154,7 +154,8 @@
 }
 
 .btn-encriptar:hover,
-.btn-desencriptar:hover{
+.btn-desencriptar:hover,
+.btn-limpiar{
   margin: 0.3%;
   width: 24.5%;
   padding: 1.8%;
