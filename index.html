@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Encriptador de Texto</title>
+<link rel="shortcut icon" href="img/faviconZPF.png" type="image/x-icon">
+<link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+    <header>
+        <div class="logo">
+            <img class="logorosa" src="img/Logorosa.png" alt="">
+        </div>
+    </header>
+            <div class="container">
+                <h1></h1>
+                <div class="encriptar">
+                <textarea 
+                class="texto" 
+                id="texto"  
+                placeholder="Ingresa el texto aquí"></textarea>
+                </div>
+        </div>
+        <div class="terminos"> 
+            <img src="img/aviso.svg" alt="">
+            <p>Solo letras minúsculas y sin acentos</p>
+            
+        </div>
+        <div class="botones">
+            <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+            <input class="btn-desencriptar" type="button" value="desencriptar" onclick="desencriptar()"/>
+            <button class="btn-limpiar" onclick="limpiarCampo()" type="button">Limpiar</button>
+
+        </div>
+        <div class="encriptado">
+            <img src="img/muñeco.png" alt="" id="munieco">
+            <div class="mensaje-encriptado" id="mensaje-encriptado">
+                <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+                <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+        </div>
+
+        <!-- Pie de Página -->
+    <footer class="footer">
+            <p class="copyright">&copy; copyright 2024 <br> - Encriptador de Texto - por ZelidethPF</p>
+
+        <a href="https://www.linkedin.com/in/zelidethparedes/" rel="">
+            <img src="img/linkedin.svg" alt="Logo Linkedin" class="linked">
+
+        <a href="https://github.com/ZelidethPF" rel="">
+            <img src="img/git.png" alt="Logo Github" class="git">
+            
+    </footer>
+    <script src="app.js"></script>
+    </body>
+</html>
